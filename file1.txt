@@ -20,6 +20,7 @@
   - AWS Certificate Manager (ACM)
   - Cognito user pools vs identity pools + Identity Federation -> I think only one or two questions
   - VPC endpoints
+  - AWS Config -> a few questions
 
 Questions I remember from the exam:
 
