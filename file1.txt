@@ -7,7 +7,7 @@
   - a few questions about system manager -> automation documents with AWS Config for automatic monitoring and remediation as well as run document option when we want to run script across ec2 instances
   - s3 -> many questions about s3 versioning, bucket policies, storage classes (with Glacier and vault), s3 select, s3 inventory, multi-part upload, athena, s3 encryption, s3 MFA delete, s3 access points, s3 CORS, s3 lifecycle policies
   - CloudFront -> many questions regarding the scenarios such as what we should do to increase the cache ration in Edge Locations
-  - amazon aurora -> a question or two
+  - amazon aurora -> question or two
   - cw alarms, cw log groups, EventBridge, cloudTrail
   - aws organizations, aws budgets, aws Health Dashboard
   - amazon macie, trusted advisor, kms encryption using customer managed keys, aws artifact
