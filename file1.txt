@@ -1,25 +1,25 @@
 - Following services were featured on the exam:
   - cloudformation -> cfn-init, cfn-signal, stacksets, drift detection
-  - r53 -> which type of policy would you choose given the scenarion, in my case there was geoproximity, geolocation and failover
+  - r53 -> which type of policy would you choose given the scenario, in my case there was geo-proximity, geolocation and failover
   - ec2 placement groups -> cluster and partition in my case
   - ec2 instance status checks -> both system and instance status checks
-  - given the scenarion what should we do with the ami? - > copy it to another region
-  - a few questions about system manager -> automation documenats with AWS Config for automatic monitoring and remedation as well as run document option when we want to run script across ec2 instances
+  - Given the scenario, what should we do with the ami? - > copy it to another region
+  - a few questions about system manager -> automation documents with AWS Config for automatic monitoring and remediation as well as run document option when we want to run script across ec2 instances
   - s3 -> many questions about s3 versioning, bucket policies, storage classes (with Glacier and vault), s3 select, s3 inventory, multi-part upload, athena, s3 encryption, s3 MFA delete, s3 access points, s3 CORS, s3 lifecycle policies
-  - CloudFront -> many questions regarding the scenarions such as what we should do to increase the cache ration in Edge Locations
+  - CloudFront -> many questions regarding the scenarios such as what we should do to increase the cache ration in Edge Locations
   - amazon aurora -> a question or two
   - cw alarms, cw log groups, EventBridge, cloudTrail
-  - aws organizatins, aws budgets, aws Health Dashboard
+  - aws organizations, aws budgets, aws Health Dashboard
   - amazon macie, trusted advisor, kms encryption using customer managed keys, aws artifact
   - secret manager and parameter store
   - many questions about VPC and networking in general as well as troubleshooting networking issues -> NAT Gateway, Internet Gateway, ipv4 + ipv6 cidr blocks, public vs private subnet, egress-only-internet gateway, VPN, Direct Connect etc.
-  - a question or two about DyanmoDB
+  - a question or two about DynamoDB
   - AWS WAF + DDos protection + Network FireWall
   - CloudHSM
   - questions about ALB and NLB -> mostly questions about listeners, how to add SSL/TLS, which one should when we need insane performances (NLB) or capabilities to inspect the request and based on it route to specific endpoint (ALB)
   - AWS Certificate Manager (ACM)
-  - cognito user pools vs identity pools + Identity Fedeeration -> I think only one or two questions
-  - vpc endpoints
+  - Cognito user pools vs identity pools + Identity Federation -> I think only one or two questions
+  - VPC endpoints
 
 Questions I remember from the exam:
 
@@ -33,7 +33,7 @@ Questions I remember from the exam:
 
 5. We want to track who accesses our ALB, what should we use? -> we can use the ALB's tracing and logging capabilities
 
-6. How to get info on the mememory utilization on EC2 instance as well as interval as low as 1 minut? -> use CloudWatch agent and enable detail monitoring (both)
+6. How to get info on the memory utilization on EC2 instances as well as intervals as low as 1 minute? -> use CloudWatch agent and enable detail monitoring (both)
 
 7. If we do not want to hardcode the DB credentials in the code, where should we store it if we want to be able to rotate the credentials automatically and what do we need more to be able to make this solution work? -> Secret Manager and IAM ROLE attached to EC2/Lambda
 
@@ -46,4 +46,4 @@ e.g
 
 10. A question regarding the AWS Cost Allocation Tags
 
-11. How to connect a EC2 instance from VPC to s3 without traversing the internet? -> VPC Gateaway endpoint
+11. How to connect an EC2 to s3 from VPC without traversing the public internet? -> VPC Gateway endpoint
